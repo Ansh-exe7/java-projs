@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Queue {
     private int[] arr;
-    private int front; // Index of first element
-    private int rear;  // Index where next element will go
+    private int front; 
+    private int rear;  
     private int capacity;
 
     public Queue(int capacity) {
@@ -13,7 +13,6 @@ public class Queue {
         rear = 0;
     }
 
-    // Add a value to the queue
     public void enqueue(int item) {
         if (rear == capacity) {
             System.out.println("Queue is full!");
@@ -24,13 +23,11 @@ public class Queue {
         }
     }
 
-    // Remove a value from the queue
     public void dequeue() {
         if (front == rear) {
             System.out.println("Queue is empty!");
         } else {
             int removed = arr[front];
-            // Shift all elements to the left
             for (int i = 0; i < rear - 1; i++) {
                 arr[i] = arr[i + 1];
             }
@@ -39,7 +36,7 @@ public class Queue {
         }
     }
 
-    // Show queue contents
+   
     public void display() {
         if (front == rear) {
             System.out.println("Queue is empty!");
