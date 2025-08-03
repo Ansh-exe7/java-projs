@@ -3,6 +3,7 @@
 This repository contains a collection of basic Core Java projects, organized for easy learning, exploration, and reference. Each project is located in its own directory with separate source code and documentation. Ideal for beginners, students, and anyone looking to strengthen their understanding of Java fundamentals.
 
 - **Project1 - FlappyBird**: Classic FlappyBird Game based on core java.
+- **Project2 - Bank Management System**: Bank Management simulation.
 - Will add more Projects soon 😉.
 
 ## ✨ Projects Included
